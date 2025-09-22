@@ -1,17 +1,17 @@
 # Findings - Cyber Task 1
 
-*Scanned network:* 10.60.108.0/24  
+*Scanned network:* xxx.xxx.xxx.xxx/24  
 *Date:* 22 Sept 2025  
 
 ---
 
 ## Host: 10.60.108.70
-- *MAC Address:* AA:DC:D6:7D:DB:6A (Unknown vendor)
+- *MAC Address:* MAC_REDACTED (Unknown vendor)
 - *Open ports:*
-  - 53/tcp → DNS (dnsmasq 2.51)
+  - 53/tcp → DNS (SOFTWARE_REDACTED)
 - *Observations:*
   - The host is running a DNS service.
-  - dnsmasq 2.51 is outdated (current versions are significantly newer).
+  - SOFTWARE_REDACTED is outdated (current versions are significantly newer).
 - *Risks:*
   - Outdated dnsmasq versions have known vulnerabilities (e.g., DNS cache poisoning, DoS).
   - An open DNS service could be abused for DNS amplification attacks if exposed beyond LAN.
@@ -23,7 +23,7 @@
 ---
 
 ## Host: 10.60.108.117
-- *MAC Address:* 4E:B9:2A:6F:AF:26 (Unknown vendor)
+- *MAC Address:* MAC_REDACTED (Unknown vendor)
 - *Open ports:* None detected (all scanned ports closed).
 - *Observations:*
   - Device is reachable but no open TCP ports were found.
